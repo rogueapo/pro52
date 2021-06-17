@@ -1,0 +1,51 @@
+.jason {
+    color:red;
+}
+
+* {
+    border: solid;
+}
+
+.item {
+    background-color:green;
+    display:flex;
+    padding-top: 15px;
+    justify-content: space-between;
+    font-size:50px;
+    font-family:sans-serif;
+    font-weight:400;
+    flex-direction: row;
+
+}
+.grid img{
+    border:50px solid #000000;
+    border-radius:50px;
+    display:flex;
+    flex-wrap:wrap;
+   
+}
+.oragami {
+    border-radius:20px;
+    background-color:white ;
+    width: 310px;
+    font-family: "Times New Roman", Times, serif;
+
+    text-align:center;
+    
+
+}
+.oragami:hover{
+    transform:scale(1.2)
+}
+body {
+    background-color:#663320;
+    margin:10px;
+}
+
+a:link{
+    color:rgb(129, 129, 129);
+    text-decoration:none;
+}
+a:visited{
+    color:white
+}
